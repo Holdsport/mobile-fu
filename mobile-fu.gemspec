@@ -1,7 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 require "mobile-fu/version"
-require 'rake'
 
 Gem::Specification.new do |s|
   s.name        = "mobile-fu"
@@ -25,4 +24,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'mocha'
   s.add_development_dependency 'rdoc'
   s.add_development_dependency 'httparty'
+  s.add_development_dependency 'rake'
 end
